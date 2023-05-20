@@ -1,0 +1,512 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1684523336675938, "dur": 11180990, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684523336677437, "dur": 23777, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684523336701454, "dur": 65632, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684523336767111, "dur": 332622, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684523337099738, "dur": 10747335, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684523347847094, "dur": 9834, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684523364648450, "dur": 7217805, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684523364648735, "dur": 4986, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684523364653724, "dur": 95119, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684523364748845, "dur": 983260, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684523365732109, "dur": 6120856, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684523371852968, "dur": 13285, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684523371867655, "dur": 56, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1684523365525479, "dur": 183624, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684523365526607, "dur": 46179, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684523365691499, "dur": 5003, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684523365696505, "dur": 12588, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684523365697452, "dur": 10873, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684523365713798, "dur": 1449, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684523365712971, "dur": 2302, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684523371867986, "dur": 41699, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1684523365779180, "dur":1572, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684523365780761, "dur":54, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1684523365780828, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1684523365780847, "dur":213, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1684523365781078, "dur":569, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684523365781647, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684523371793130, "dur":79, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684523371793209, "dur":30, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684523371793239, "dur":26, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684523371793266, "dur":29, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684523371793295, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684523371793299, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684523371793307, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684523371793309, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684523371793316, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684523371793318, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684523371793325, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684523371793327, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684523371793334, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684523371793354, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684523371793377, "dur":3149, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1684523365781491, "dur":186, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523365781679, "dur":5746, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523365787438, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684523365787443, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523365797834, "dur":1188252, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684523366986093, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684523366986188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523367005760, "dur":2398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684523367008161, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1684523367008273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523367008281, "dur":67884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1684523367076219, "dur":26568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1684523367102795, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523367118216, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1684523367119178, "dur":2169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1684523367121352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523367121361, "dur":218167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1684523367339625, "dur":1094014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1684523368433646, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523368433656, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1684523368435161, "dur":48766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523368483966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523368483979, "dur":1980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523368485999, "dur":52155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523368538160, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523368538173, "dur":3226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523368541443, "dur":44240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523368585685, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523368585695, "dur":4954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523368590688, "dur":33856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523368624547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523368624553, "dur":23194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523368647850, "dur":95796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523368743651, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523368743659, "dur":1833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523368745535, "dur":108948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523368854489, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523368854503, "dur":9224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523368863781, "dur":95825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523368959613, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523368959627, "dur":9293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523368968963, "dur":69251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523369038219, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523369038234, "dur":215922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523369254206, "dur":36945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523369291159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523369291166, "dur":54876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523369346083, "dur":522961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523369869052, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523369869108, "dur":20644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523369889793, "dur":47936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523369937738, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523369937752, "dur":9917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523369947709, "dur":479863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523370427583, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523370427600, "dur":497370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523370925012, "dur":118572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523371043589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523371043597, "dur":65516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523371109156, "dur":147834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523371256995, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523371257003, "dur":47200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523371304252, "dur":177920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523371482179, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523371482191, "dur":2508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523371484741, "dur":55412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523371540162, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523371540174, "dur":19001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684523371559221, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1684523371559416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523371559898, "dur":2240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1684523371562202, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1684523371562255, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523371562338, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1684523371563874, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1684523371563919, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523371563930, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1684523371564980, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684523371565025, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523371565032, "dur":30188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684523371595273, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684523371595320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523371595331, "dur":5294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684523371600669, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1684523371600818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523371600825, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1684523371601777, "dur":13966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1684523371615751, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523371615762, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1684523371616909, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684523371616947, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523371616952, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684523371618193, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1684523371618320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684523371618325, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1684523371619912, "dur":173227, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523365781943, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523365781944, "dur":5520, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523365787465, "dur":1198709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1684523366986177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523367006360, "dur":52825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1684523367059229, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1684523367059336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523367059344, "dur":62527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1684523367121915, "dur":63063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1684523367185039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523367185048, "dur":155985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1684523367341076, "dur":174903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02.exe" }}
+,{ "pid":12345, "tid":2, "ts":1684523367515983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523367515989, "dur":96981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02.exe" }}
+,{ "pid":12345, "tid":2, "ts":1684523367613039, "dur":29234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523367642286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523367642294, "dur":32555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523367674898, "dur":46261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523367721165, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523367721200, "dur":217632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523367938881, "dur":56210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523367995102, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523367995117, "dur":69331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368064505, "dur":59259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368123768, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523368123779, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368124865, "dur":47944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368172812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523368172818, "dur":177209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368350091, "dur":42820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368392916, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523368392926, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368393912, "dur":60501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368454421, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523368454434, "dur":30225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368484700, "dur":94566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368579271, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523368579279, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368580721, "dur":23141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368603867, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523368604006, "dur":8603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368612648, "dur":44371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368657042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523368657050, "dur":12572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368669662, "dur":39822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368709489, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523368709497, "dur":3689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368713222, "dur":55626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368768851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523368768857, "dur":17062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368785957, "dur":71495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368857456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523368857468, "dur":6070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368863596, "dur":85294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368948895, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523368948905, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368950192, "dur":34368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368984565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523368984575, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523368985626, "dur":64748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523369050378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523369050386, "dur":262953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523369313383, "dur":561326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523369874713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523369874724, "dur":16146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523369890908, "dur":244245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523370135157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523370135165, "dur":15911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523370151141, "dur":268898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523370420050, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523370420062, "dur":503569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523370923684, "dur":11305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523370934994, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523370935005, "dur":57824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523370992871, "dur":60035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523371052910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523371052918, "dur":76676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523371129648, "dur":88768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523371218421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523371218429, "dur":17582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523371236051, "dur":55469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523371291525, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523371291533, "dur":13262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523371304835, "dur":84002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523371388842, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523371388853, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523371390259, "dur":117415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523371507679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523371507688, "dur":1928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523371509658, "dur":279887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523371789550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684523371789559, "dur":3496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684523371793097, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1684523371793099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523365781604, "dur":96, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523365781700, "dur":5734, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523365787438, "dur":1198707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1684523366986149, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523367006406, "dur":50991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1684523367057444, "dur":11211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1684523367068660, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523367068669, "dur":53451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1684523367122174, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1684523367122270, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523367122275, "dur":63116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1684523367185432, "dur":221969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523367407407, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523367611172, "dur":65855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523367677079, "dur":72452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523367749535, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523367749543, "dur":189274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523367938890, "dur":59095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523367997993, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523367998005, "dur":105521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368103569, "dur":75709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368179286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523368179294, "dur":170958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368350296, "dur":100720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368451023, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523368451033, "dur":8234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368459313, "dur":43441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368502759, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523368502767, "dur":4661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368507474, "dur":27100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368534583, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523368534596, "dur":4870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368539516, "dur":47017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368586535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523368586541, "dur":5594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368592177, "dur":52993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368645175, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523368645183, "dur":2798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368648031, "dur":79229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368727267, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523368727287, "dur":6474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368733810, "dur":34558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368768374, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523368768383, "dur":17226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368785652, "dur":55471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368841129, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523368841158, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368842099, "dur":54986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368897093, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523368897105, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523368898258, "dur":134925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523369033192, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523369033206, "dur":280364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523369313616, "dur":1795070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523371108692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523371108703, "dur":20896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523371129654, "dur":123057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523371252717, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523371252730, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523371254241, "dur":373933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523371628180, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684523371628194, "dur":18315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684523371646661, "dur":146453, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523365781699, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523365781699, "dur":5846, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523365787545, "dur":1198684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1684523366986232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523367006174, "dur":51804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1684523367058088, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1684523367058214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523367058272, "dur":63648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1684523367121969, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1684523367122154, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523367122171, "dur":218857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1684523367341542, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1684523367341681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523367372659, "dur":56675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1684523367429390, "dur":43356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523367472752, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523367472982, "dur":101852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523367574879, "dur":9932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523367584816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523367584888, "dur":27091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523367612064, "dur":19526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523367631598, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523367631610, "dur":41072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523367672733, "dur":100699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523367773436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523367773443, "dur":165355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523367938855, "dur":153773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523368092633, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523368092641, "dur":11278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523368103984, "dur":82798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523368186787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523368186811, "dur":164609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523368351459, "dur":206622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523368558109, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523368558118, "dur":2992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523368561163, "dur":24516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523368585685, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523368585695, "dur":4902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523368590639, "dur":32281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523368622925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523368622936, "dur":24185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523368647167, "dur":55481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523368702654, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523368702664, "dur":10218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523368712922, "dur":42787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523368755714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523368755722, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523368756910, "dur":73025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523368829942, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523368829956, "dur":6267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523368836264, "dur":78471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523368914740, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523368914750, "dur":23233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523368938046, "dur":41999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523368980051, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523368980061, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523368981179, "dur":54364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523369035547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523369035556, "dur":277727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523369313328, "dur":567812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523369881145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523369881153, "dur":9660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523369890853, "dur":559763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523370450620, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523370450629, "dur":474378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523370925053, "dur":521322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523371446380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523371446388, "dur":30344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523371476776, "dur":107796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523371584577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523371584586, "dur":20764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684523371605393, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684523371605437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523371605444, "dur":10719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684523371616205, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1684523371616250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523371616257, "dur":1835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1684523371618152, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1684523371618199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684523371618206, "dur":2131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1684523371620381, "dur":172747, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523365781798, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523365781799, "dur":5719, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523365787518, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1684523365787814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523367006176, "dur":51937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1684523367058171, "dur":24128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1684523367082356, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523367082366, "dur":62102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1684523367144507, "dur":328918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523367473427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523367611210, "dur":61476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523367672742, "dur":28722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523367701469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523367701478, "dur":82345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523367783868, "dur":50148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523367834022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523367834032, "dur":105213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523367939283, "dur":84622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523368023910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523368023936, "dur":79824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523368103802, "dur":68905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523368172712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523368172720, "dur":177623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523368350385, "dur":159083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523368509472, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523368509480, "dur":29484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523368539056, "dur":47418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523368586477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523368586483, "dur":5534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523368592064, "dur":32475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523368624543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523368624553, "dur":23130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523368647732, "dur":87860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523368735598, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523368735610, "dur":9750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523368745403, "dur":52025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523368797436, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523368797450, "dur":20573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523368818064, "dur":28139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523368846208, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523368846218, "dur":16645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523368863088, "dur":47026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523368910120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523368910131, "dur":27743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523368937948, "dur":54780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523368992733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523368992742, "dur":27530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523369020328, "dur":238611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523369258946, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523369258958, "dur":86839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523369345840, "dur":79028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523369424872, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523369424880, "dur":9898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523369434822, "dur":181040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523369615867, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523369615875, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523369617026, "dur":227291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523369844321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523369844334, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523369845319, "dur":301188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523370146512, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523370146520, "dur":4760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523370151320, "dur":135925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523370287250, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523370287259, "dur":78638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523370365941, "dur":65618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523370431565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523370431574, "dur":493315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523370924926, "dur":81784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523371006715, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523371006723, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523371007662, "dur":129111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523371136778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523371136787, "dur":1143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523371137978, "dur":75691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523371213675, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523371213684, "dur":40130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523371253862, "dur":182614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523371436482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523371436493, "dur":5590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523371442125, "dur":103706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523371545836, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523371545846, "dur":12026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523371557927, "dur":68333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523371626266, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684523371626278, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684523371627310, "dur":165825, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684523365782047, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684523365782047, "dur":5400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684523365787448, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1684523365787675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684523367006367, "dur":50522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1684523367056974, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1684523367057114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684523367057642, "dur":8880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1684523367066571, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1684523367066686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684523367118229, "dur":26092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1684523367144366, "dur":17297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1684523367161684, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684523367161713, "dur":37136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1684523367198906, "dur":1800245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684523368999198, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684523368999211, "dur":211405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684523369210689, "dur":187066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684523369397761, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684523369397770, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684523369399006, "dur":1523947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684523370922960, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684523370922973, "dur":1625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684523370924640, "dur":95341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684523371019986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684523371019995, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684523371021495, "dur":188459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684523371210149, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684523371210161, "dur":25301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684523371235512, "dur":149542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684523371385060, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684523371385068, "dur":3182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684523371388331, "dur":128782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684523371517119, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684523371517130, "dur":40568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684523371557744, "dur":200764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684523371758512, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684523371758521, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bielr/OneDrive/Documentos/GitHub/3D-Scenaries-P2/Practica_02_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684523371759546, "dur":33569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684523371798992, "dur":2070, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1684523371910088, "dur": 17007, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684523371867627, "dur": 59570, "ph": "X", "name": "Write chrome-trace events", "args": {} },
