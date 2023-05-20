@@ -1,5 +1,25 @@
 sceneSetups:
-- path: Assets/Scenes/Hall.unity
+- path: Assets/Scenes/Bedroom.unity
   isLoaded: 1
   isActive: 1
+  isSubScene: 0
+- path: Assets/Scenes/Hall.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Kitchen.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Pantry.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Garden.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Bathroom.unity
+  isLoaded: 1
+  isActive: 0
   isSubScene: 0
