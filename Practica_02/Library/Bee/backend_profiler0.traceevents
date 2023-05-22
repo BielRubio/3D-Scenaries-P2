@@ -1,40 +1,676 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1683540394478937, "dur":11714, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394490673, "dur":13262, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1683540394504028, "dur":57, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1683540394504087, "dur":580, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1683540394504704, "dur":6319, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394511023, "dur":7, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394511181, "dur":102, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394511283, "dur":44, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394511327, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394511334, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394511348, "dur":919, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394512267, "dur":31, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394512298, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394512303, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394512318, "dur":17, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394512335, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394512348, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394512352, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394512374, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394512378, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394512385, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394512388, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394512397, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394512397, "dur":61, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394512496, "dur":1623, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1683540394505385, "dur":5800, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683540394505053, "dur":6017, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683540394511073, "dur":99, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683540394505176, "dur":5940, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683540394511120, "dur":1106, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683540394505129, "dur":5949, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683540394511081, "dur":663, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683540394505226, "dur":5899, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683540394511128, "dur":1140, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683540394505371, "dur":5848, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683540394505495, "dur":5701, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683540394505602, "dur":5605, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683540394516087, "dur":734, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1684604267732421, "dur":1207, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604267733637, "dur":279, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1684604267733976, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1684604267733994, "dur":343, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1684604267734358, "dur":708, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604267735066, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604270012243, "dur":83, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604270012326, "dur":98, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604270012424, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604270012430, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604270012441, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604270012444, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604270012452, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604270012454, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604270012462, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604270012464, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604270012472, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604270012475, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604270012483, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604270012486, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604270012506, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604270012509, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604270012517, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604270012547, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604270012593, "dur":2264, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1684604267734634, "dur":478, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604267735114, "dur":6391, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604267741543, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684604267741544, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604267741748, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684604267741750, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604267741870, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604267901722, "dur":2737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684604267904462, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604267904545, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604267904608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604267904621, "dur":48280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604267952965, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604267953023, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604267953144, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604267953153, "dur":227059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604268180273, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604268180333, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604268180388, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604268180399, "dur":118956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604268299401, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604268299447, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604268299518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604268299529, "dur":47932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604268347521, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604268347578, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604268347640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604268347650, "dur":29127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604268376832, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604268376895, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604268376953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604268376961, "dur":576808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604268953824, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604268953875, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604268953925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604268953975, "dur":53246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604269007279, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604269007336, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604269007393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604269007402, "dur":76500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604269083975, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604269084030, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604269084093, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604269084106, "dur":166562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604269250732, "dur":742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604269251475, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604269251549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604269251559, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604269253021, "dur":790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604269253812, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604269253899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604269253908, "dur":1083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604269255045, "dur":51310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604269306355, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604269306456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604269306466, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604269307636, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604269307688, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604269307735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604269307743, "dur":193038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604269500839, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604269500894, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604269500953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604269500963, "dur":138846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604269639869, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604269639925, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604269639983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604269639993, "dur":291958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684604269932011, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1684604269932171, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604269932231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684604269932238, "dur":2913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1684604269935216, "dur":77011, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604267734787, "dur":363, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604267735150, "dur":6400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604267741550, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1684604267741754, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604267741904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604267902742, "dur":40517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1684604267943325, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604267943391, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604267943446, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604267943456, "dur":323579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604268267093, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604268267144, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604268267200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604268267211, "dur":107397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604268374670, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604268374725, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604268374781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604268374792, "dur":577164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604268952025, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604268952092, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604268952152, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604268952164, "dur":65895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604269018119, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604269018176, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604269018258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604269018268, "dur":33632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604269051958, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604269052012, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604269052066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604269052097, "dur":26062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604269078216, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604269078269, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604269078322, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604269078331, "dur":56821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604269135208, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604269135264, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604269135322, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604269135332, "dur":85592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604269220983, "dur":37810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604269258794, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604269258858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604269258869, "dur":5932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604269264852, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604269264901, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604269264970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604269264978, "dur":95253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604269360284, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604269360340, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604269360391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604269360401, "dur":146423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604269506877, "dur":54433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604269561311, "dur":8543, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604269569863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604269569874, "dur":360632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684604269930570, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1684604269930632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684604269930642, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1684604269932134, "dur":80094, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604267734677, "dur":440, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604267735118, "dur":6470, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604267741588, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1684604267741713, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604267741804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604267900918, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1684604267903217, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604267903270, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604267903321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604267903329, "dur":70000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604267973402, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604267973463, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604267973542, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604267973552, "dur":314939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604268288547, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604268288604, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604268288658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604268288668, "dur":98555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604268387276, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604268387327, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604268387403, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604268387412, "dur":565009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604268952484, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604268952542, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604268952657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604268952668, "dur":45165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604268997899, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604268997962, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604268998022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604268998035, "dur":33891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604269031979, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604269032032, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604269032085, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604269032094, "dur":31067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604269063216, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604269063266, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604269063476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604269063486, "dur":46228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604269109761, "dur":79833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604269189595, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604269189697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604269189708, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604269190923, "dur":66302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604269257226, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604269257318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604269257331, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604269258619, "dur":791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604269259410, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604269259472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604269259483, "dur":4475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604269264011, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604269264063, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604269264112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604269264120, "dur":435065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604269699258, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604269699319, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604269699381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684604269699394, "dur":312766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684604270012203, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1684604270012204, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604267734756, "dur":389, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604267735145, "dur":6397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604267741542, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1684604267741698, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604267741788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604267751037, "dur":1575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1684604267752666, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1684604267752767, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604267752815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604267752823, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1684604267753934, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604267754037, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604267754100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604267754327, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604267755828, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604267755948, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604267756008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604267756014, "dur":148788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604267904861, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604267904917, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604267904968, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604267904975, "dur":89840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604267994877, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604267994940, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604267994997, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604267995005, "dur":78453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604268073515, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604268073562, "dur":285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604268109478, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604268109492, "dur":143257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604268252803, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604268252864, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604268252922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604268252933, "dur":124173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604268377165, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604268377219, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604268377271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604268377278, "dur":575859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604268953191, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604268953327, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604268953383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604268953390, "dur":61433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604269014881, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604269014936, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604269014991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604269015001, "dur":41366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604269056421, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604269056472, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604269056525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604269056532, "dur":103124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604269159711, "dur":355743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604269515455, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604269515551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604269515561, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604269517939, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604269517991, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604269518053, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604269518063, "dur":170523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604269688641, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604269688699, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604269688757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604269688767, "dur":242340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684604269931217, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1684604269931299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684604269931308, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1684604269933631, "dur":78594, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604267734816, "dur":339, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604267735155, "dur":6356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604267741542, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1684604267741709, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604267741820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604267902231, "dur":3024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1684604267905315, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604267905371, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604267905422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604267905510, "dur":62317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604267967917, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604267967973, "dur":5729, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604267973708, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604267973715, "dur":86590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604268060357, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604268060413, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604268060553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604268060564, "dur":238259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604268298886, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604268298944, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604268299005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604268299021, "dur":58395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604268357471, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604268357521, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604268357575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604268357585, "dur":51135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604268408782, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604268408836, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604268408893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604268408904, "dur":557550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604268966511, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604268966562, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604268966615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604268966624, "dur":163770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604269130449, "dur":87497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604269217947, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269218050, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269218061, "dur":5217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604269223338, "dur":2426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604269225765, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269225870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269225880, "dur":7884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604269233814, "dur":79484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604269313298, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269313392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269313401, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604269314579, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604269314651, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269314720, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269314729, "dur":95468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604269410252, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604269410304, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269410365, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269410375, "dur":51972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604269462401, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604269462453, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269462510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269462519, "dur":254794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684604269717367, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1684604269717541, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269717614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269718301, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1684604269719638, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1684604269719710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269719791, "dur":1725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1684604269721577, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684604269721635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269721644, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684604269722801, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684604269722859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269722873, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684604269724049, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684604269724106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269724114, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684604269726166, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684604269726224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269726233, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684604269727291, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684604269727346, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269727354, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684604269728393, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1684604269728446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269728455, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1684604269729561, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684604269729636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269729644, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684604269732187, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684604269732244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269732253, "dur":1840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684604269734145, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1684604269734302, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269734355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269734364, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1684604269735523, "dur":1120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1684604269736644, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269736736, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269736747, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1684604269738229, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level5.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684604269738288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269738296, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level5.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684604269739481, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level5" }}
+,{ "pid":12345, "tid":5, "ts":1684604269739565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269739573, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level5" }}
+,{ "pid":12345, "tid":5, "ts":1684604269740606, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level4.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684604269740658, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269740664, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level4.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684604269741762, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level4" }}
+,{ "pid":12345, "tid":5, "ts":1684604269741814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269741822, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level4" }}
+,{ "pid":12345, "tid":5, "ts":1684604269743013, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684604269743069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269743077, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684604269744315, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1684604269744377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269744385, "dur":2435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1684604269746882, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1684604269746939, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269746947, "dur":153102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1684604269900097, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1684604269900151, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684604269900160, "dur":35433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1684604269935647, "dur":76604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267734944, "dur":216, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267735160, "dur":6354, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267741542, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1684604267741681, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267741748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267743885, "dur":1949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1684604267745898, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1684604267746054, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267746148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267746612, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1684604267747995, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1684604267748093, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267748144, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267748213, "dur":1696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1684604267749976, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1684604267750144, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267750233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267750766, "dur":1803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1684604267752631, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1684604267752746, "dur":3826, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267756581, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267756594, "dur":4574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1684604267761263, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1684604267761405, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267761478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267761966, "dur":4834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1684604267766908, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604267767315, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267767396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267769953, "dur":131643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604267901657, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604267901721, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267901772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267901780, "dur":54781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604267956617, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604267956671, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267956762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604267956786, "dur":54123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604268010963, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604268011014, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604268011068, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604268011077, "dur":41935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604268053067, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604268053120, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604268053176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604268053185, "dur":208757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604268262003, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604268262066, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604268262124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604268262137, "dur":691047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604268953233, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604268953329, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604268953384, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604268953392, "dur":31573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604268985020, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604268985073, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604268985129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604268985138, "dur":45347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604269030546, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604269030611, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604269030667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604269030677, "dur":149043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604269179773, "dur":40255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604269220029, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604269220104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604269220114, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604269221530, "dur":43856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604269265387, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604269265450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604269265458, "dur":3234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604269268753, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604269268804, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604269268858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604269268868, "dur":136875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604269405799, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604269405854, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604269405905, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604269405912, "dur":114849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604269520813, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604269520867, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604269520922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604269520955, "dur":178700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604269699707, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604269699758, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604269699806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684604269699835, "dur":236174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684604269936047, "dur":76196, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604267734975, "dur":189, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604267735165, "dur":6386, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604267741551, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1684604267741701, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604267741775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604267750606, "dur":1694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1684604267752366, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1684604267752482, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604267752540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604267752568, "dur":8391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1684604267761021, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final.exe" }}
+,{ "pid":12345, "tid":7, "ts":1684604267761085, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604267761147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604267761158, "dur":10369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final.exe" }}
+,{ "pid":12345, "tid":7, "ts":1684604267771586, "dur":128820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604267900407, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604267900485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604267900631, "dur":55972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604267956656, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604267956749, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604267956807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604267956815, "dur":35773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604267992643, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604267992696, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604267992749, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604267992757, "dur":200622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604268193464, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604268193541, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604268193608, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604268193627, "dur":183005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604268376694, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604268376752, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604268376811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604268376821, "dur":575840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604268952724, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604268952778, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604268952833, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604268952842, "dur":31008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604268983931, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604268983994, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604268984058, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604268984067, "dur":31385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604269015507, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604269015564, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604269015619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604269015628, "dur":42558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604269058243, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604269058301, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604269058356, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604269058365, "dur":41082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604269099499, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604269099551, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604269099606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604269099616, "dur":29931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604269129606, "dur":116958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604269246565, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604269246669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604269246680, "dur":2786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604269249518, "dur":1082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604269250601, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604269250674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604269250685, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604269251809, "dur":34912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604269286722, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604269286835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604269286863, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604269288091, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604269288148, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604269288203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604269288212, "dur":193667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604269481936, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604269481992, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604269482071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604269482081, "dur":262821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684604269744963, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level2.resS" }}
+,{ "pid":12345, "tid":7, "ts":1684604269745041, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604269745048, "dur":154510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level2.resS" }}
+,{ "pid":12345, "tid":7, "ts":1684604269899632, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1684604269899699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604269899714, "dur":31133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1684604269930904, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1684604269930966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684604269930976, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1684604269933298, "dur":78928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267735007, "dur":162, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267735169, "dur":6374, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267741543, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1684604267741684, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267741752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267743311, "dur":2517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1684604267745894, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1684604267746061, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267746162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267746645, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1684604267748021, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1684604267748151, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267748241, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267748279, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1684604267750060, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1684604267750180, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267750240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267750523, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1684604267751990, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1684604267752114, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267752168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267752252, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1684604267753753, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1684604267753873, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267753925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267753938, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1684604267755148, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604267755313, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267755375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267755451, "dur":5417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604267760946, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1684604267761086, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267761146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267761158, "dur":6211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1684604267767436, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604267767493, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267767550, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267770045, "dur":131853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604267902113, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604267902167, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267902287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267902295, "dur":75320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604267977676, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604267977735, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267977806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604267977816, "dur":86490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604268064365, "dur":234294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604268298660, "dur":27348, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604268326018, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604268326030, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604268327435, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604268327492, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604268327547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604268327557, "dur":619015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604268946625, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604268946682, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604268946777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604268946788, "dur":48205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604268995053, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604268995110, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604268995170, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604268995179, "dur":31598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604269026834, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604269026891, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604269026950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604269026960, "dur":29383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604269056401, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604269056463, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604269056520, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604269056529, "dur":40348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604269096933, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604269096985, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604269097042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604269097052, "dur":50942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604269148045, "dur":111921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604269259967, "dur":2758, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604269262734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604269262746, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604269263938, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604269263987, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604269264038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604269264047, "dur":141486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604269405586, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604269405646, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604269405702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604269405712, "dur":55186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604269460953, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604269461005, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604269461056, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604269461065, "dur":254012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604269715140, "dur":46344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604269761485, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604269761579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604269761589, "dur":169447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684604269931099, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1684604269931163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684604269931169, "dur":2572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/cleve/Documents/GitHub/3D-Scenaries-P2/BlockOut_Build1/Practica_02 Final_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1684604269933803, "dur":78424, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684604270046857, "dur":3202, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
