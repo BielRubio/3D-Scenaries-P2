@@ -1,0 +1,3 @@
+He agrupado varios assets en un mismo UV Map.
+Los assets que estan dentro del grupo 1 todos usan las texturas dentro de "Grupo1 Texture". 
+En el grupo2 funciona de la misma manera.
